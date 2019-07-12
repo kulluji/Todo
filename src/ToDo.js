@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css'
 
 //import AutoComplete from '@material-ui/AutoComplete' ;
-import { ListItem, IconButton, Checkbox } from '@material-ui/core';
+import { Checkbox } from '@material-ui/core';
 //import DeleteIcon from '@material-ui/icons/Delete';
 
 
