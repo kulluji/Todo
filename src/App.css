@@ -7,7 +7,13 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.head {
+  background-color: lightyellow;
+  width: 400px;
+  border: 15px solid blue;
+  padding: 50px;
+  margin: 20px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -18,10 +24,59 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.typo {
+  background-color: grey;
+}
 .App-link {
   color: #61dafb;
 }
+
+.App-title {
+  font-size : 1.5em;
+}
+.todo{
+  display: flex;
+ justify-content: center;
+ width: 400px;
+ height: 25px;
+ white-space: wrap;
+ margin: 0 auto;
+ margin-left: 0px;
+ font-size: 20px;
+ margin-bottom: 0px;
+ box-sizing: content-box;
+ border-style: ridge;
+ background-color: lightgrey;
+ }
+ .todo:hover {
+  background-color: #3e8e41;
+  color: white;
+ }
+ .abcd{
+  display: inline-block;
+  font-size: 10px;
+ }
+ .hidden {
+  display: none;
+ }
+ .visible {
+  background-color: #f2f2f2;
+ }
+ table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%; }
+
+  td {
+    border-bottom: 0px solid #dedede; }
+   
+  .Delete{
+    width: 10%;
+  }
+ 
+
+
 
 @keyframes App-logo-spin {
   from {
